@@ -5,9 +5,7 @@ authors = ["{{authors}}"]
 edition = "2018"
 
 [dependencies]
-
 [dev-dependencies]
-bundler = "0.1.1"
 
 [[bin]]
 name = "{{project-name}}"
