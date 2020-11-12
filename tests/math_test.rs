@@ -1,4 +1,4 @@
-use {{project-name}}::math::add;
+use {{crate-name}}::math::add;
 
 #[test]
 fn addition() {
