@@ -2,12 +2,22 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Build single file",
+      "label": "Build src/bin/singlefile.rs",
       "type": "shell",
-      "command": "cargo build --bin {{project-name}} && bundle . > src/bin/singlefile.rs",
+      "command": "cargo test && cargo build --bin {{project-name}} && bundle . > src/bin/singlefile.rs",
       "problemMatcher": [],
       "group": {
         "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Test {{project-name}}",
+      "type": "shell",
+      "command": "cargo test",
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
         "isDefault": true
       }
     }
