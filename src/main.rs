@@ -1,5 +1,5 @@
-extern crate {{crate-name}};
+extern crate {{crate_name}};
 
 fn main() {
-    println!("Hello, {{crate-name}}!");
+    println!("Hello, {{crate_name}}!");
 }
