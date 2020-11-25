@@ -7,6 +7,5 @@ edition = "2018"
 [dependencies]
 [dev-dependencies]
 
-[[bin]]
-name = "{{project-name}}"
-path = "src/main.rs"
+[build-dependencies]
+bundler = "0.1.1"
